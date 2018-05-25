@@ -18,7 +18,7 @@ public class Animal {
     /**
      * Empty constructor
      */
-    public Animal(){}//todo qwestion thy its normal or more - its needs
+    public Animal(){}
 
     /**
      * @param name - set name of animal with constructor
@@ -29,9 +29,9 @@ public class Animal {
 
     /**
      * Set name & type from animal
-     * View only homework1 package (protected)
+     * View only homework1 package (default)
      */
-    protected Animal(String name, String type){
+    Animal(String name, String type){
         this.name = name;
         this.type = type;
     }
